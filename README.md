@@ -1,7 +1,7 @@
 
 **bps-location-finder**
 
-This project goal is to get coordinates by location names using Google Maps without API Key. You can use multiple keyword (location name) in single processing. The input keyword is located in third column of csv file
+This project goal is to get coordinates by location names using Google Maps without API Key. You can use multiple keyword (location name) in single processing. The input keywords are located in third column of csv file
 
 first, install dependencies
 
