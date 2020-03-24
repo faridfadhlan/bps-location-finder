@@ -69,7 +69,7 @@ const getData = (url) => {
                     if(lat.length > 1 && long.length > 1) {
                         if(lat[1].length > 5 && long[1].length > 5) {
                             await ow.write(n.kodeprov + n.kodekab +';' + n.keyword + ';' + m + "\n");
-                            logger.info("Yay, Koordinat berhasil ditemukan!");
+                            logger.info("Yay, found location!");
                             found = true;
                             break;
                         }
