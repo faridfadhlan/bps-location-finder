@@ -79,7 +79,6 @@ const getData = (url) => {
                 if(!found) {
                     logger.error("Not Found!");
                     await ow.write(n.kodeprov + n.kodekab +';' + n.keyword + ';Not Found\n');
-                    await ow.write(n +';Not Found\n');
                 }
             }
             else {
